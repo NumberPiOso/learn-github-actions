@@ -2,7 +2,7 @@ name: learn-github-actions
 run-name: Docker image
 on: [push]
 jobs:
-  check-bats-version:
+  create-docker-image:
     runs-on: ubuntu-latest
 
     steps:
